@@ -204,7 +204,7 @@ function checkOS() {
 				log_fatal "Your version of openSUSE Leap is not supported."
 			fi
 		fi
-		if [[ $ID == "centos" || $ID == "rocky" || $ID == "almalinux" ]]; then
+		if [[ $ID == "centos" || $ID == "rocky" || $ID == "almalinux" || $ID == "opencloudos" ]]; then
 			OS="centos"
 		fi
 		if [[ $ID == "ol" ]]; then
